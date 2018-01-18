@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN" "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>1.2</jsp-version>
+    <short-name>cm</short-name>
+    <uri>WEB-INF/moot-utils.tld</uri>
+    <description>Collection of tags for the Hero Moot Administration System</description>
+
+	<tag>
+            <name>hasrole</name>
+            <tag-class>tags.HasRole</tag-class>
+            <body-content>JSP</body-content>
+            <attribute>
+                <name>role</name>
+                <required>true</required>
+                <rtexprvalue>true</rtexprvalue>
+                <type>String</type>
+            </attribute>
+	</tag>
+
+	<tag>
+            <name>nothasrole</name>
+            <tag-class>tags.NotHasRole</tag-class>
+            <body-content>JSP</body-content>
+            <attribute>
+                <name>role</name>
+                <required>true</required>
+                <rtexprvalue>true</rtexprvalue>
+                <type>String</type>
+            </attribute>
+	</tag>
+
+	<tag>
+            <name>moothead</name>
+            <tag-class>tags.MootHead</tag-class>
+            <body-content>JSP</body-content>
+            <attribute>
+                <name>title</name>
+                <required>false</required>
+                <rtexprvalue>true</rtexprvalue>
+                <type>String</type>
+            </attribute>
+	</tag>
+
+	<tag>
+            <name>mootmenu</name>
+            <tag-class>tags.MootMenu</tag-class>
+            <body-content>empty</body-content>
+            <attribute>
+                <name>selected</name>
+                <required>false</required>
+                <rtexprvalue>true</rtexprvalue>
+                <type>String</type>
+            </attribute>
+	</tag>
+
+	<tag>
+            <name>bodytable</name>
+            <tag-class>tags.BodyTable</tag-class>
+            <body-content>JSP</body-content>
+	</tag>
+
+        <tag>
+            <name>mootreport</name>
+            <tag-class>tags.MootReport</tag-class>
+            <body-content>JSP</body-content>
+            <attribute>
+                <name>name</name>
+                <required>true</required>
+                <rtexprvalue>true</rtexprvalue>
+                <type>String</type>
+            </attribute>
+	</tag>
+
+</taglib>
+

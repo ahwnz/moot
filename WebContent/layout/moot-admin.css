@@ -1,0 +1,225 @@
+/* Scout colours:
+	purple		#6a2c91    	lt: #9e7bb7;
+	ugly gold	#B8B308
+	kea			#f3901d
+	cub			#ffcf1d
+	scout		#00703c		#63c777 (on purple)
+	venturer	#98002e
+	rover		#ee3424
+	leader		#005596		#80b8e6 (on purple)
+*/
+body { 
+	font-size:12px; 
+	font-family:Verdana, Arial, sans-serif; 
+	margin:5px;
+	background:url(/moot/images/topfade.png) repeat-x;
+	background-color:white; 
+}
+h1 {
+	color:#00703c;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	text-shadow: 2px 2px #ddd;
+}
+h2 {
+	color:#98002e;
+	font-size:13px;
+	font-weight:bold;
+	margin:0px 0px 8px 0px;
+}
+#h2space {
+	line-height:8px;
+}
+h3 {
+	color:#005596;
+	font-size:12px;
+	font-weight:bold;
+	border-top:1px solid #7C9EA1;
+	margin-bottom:5px;
+	padding-top:2px;
+}
+h4 {
+	color:#00703c;
+	font-size:12px;
+	font-weight:bold;
+}
+input, textarea {
+	font-size:12px;
+	font-family:Verdana, Arial, sans-serif; 
+}
+a {
+	color:#244888;
+}
+a:hover {
+	color:#98002e;
+}
+.cmdlink {
+	color:#244888;
+}
+.hdrLink {
+	color:#500045;
+	font-size:10px;
+}
+.hdrLink:hover {
+	color:#000000;	
+}
+.listlink {
+	color:#000000;
+	text-decoration:underline;
+}
+.listlink:hover {
+	color:#244888;
+	text-decoration:underline;
+}	
+#menubar {
+	background-color:#777;
+	line-height:22px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	text-align:center;
+}
+#menubar a {
+	color:#f2f2f2;
+	font-weight:bold;
+	text-decoration:none;
+	padding:0px 5px 0px 5px;
+}
+#menubar .select {
+	color:#98002e;
+	background-color:#ffffff;
+	padding:0px 5px 5px 5px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #fff;
+	text-shadow: 2px 2px #e8e8e8;
+}
+#menubar .select:hover {
+	color:#98002e;
+	background-color:#ffffff;
+	padding:0px 5px 5px 5px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:1px solid #fff;
+	text-shadow: 2px 2px #e8e8e8;
+}
+#menubar a:hover {
+	color:#ffcf1d;
+	border:1px dotted #f3901d;
+	padding:0px 4px 0px 4px;
+	/* text-decoration:underline; */
+}
+.menuspacer {
+	padding-left:12px;
+}
+#menubarkea {
+	line-height:3px;
+	background-color:#f3901d;
+	-moz-border-radius-topleft:2px;
+	-webkit-border-top-left-radius:2px;
+}
+#menubarleader {
+	line-height:3px;
+	background-color:#005596;
+	-moz-border-radius-topright:2px;
+	-webkit-border-top-right-radius:2px;
+}
+table {
+	border-collapse:collapse;
+	border-color:#a9a9a9;
+}	
+td { 
+	/* padding:2px 5px 2px 5px; */
+	font-size:12px;	
+}
+th  {
+	background:url(/moot/images/menubar_fade.png) repeat-x; 
+	font-weight:normal;
+	padding:1px 5px 1px 5px;
+	font-size:12px;	
+}
+.dkrow {
+	background-color:#DEE5DC;
+}
+.tag {
+	color:#6a2c91;
+	padding-right:5px;
+}
+.vact {
+	background-color:#E0ECE1;
+	padding:0px 5px 0px 5px;
+}
+#block {
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	padding:10px;
+	border:1px solid #e8e8e8;
+	background-color:#ffffff;
+}
+fieldset {
+	border:1px solid #00703c;
+	padding:5px 10px 10px 10px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+legend {
+	color:#00703c;
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+}
+#controlDiv {
+	margin-bottom:5px;	
+}
+.divline {
+	color:#00703c;
+}
+.addbtn {
+	position:relative;
+	top:3px;	
+}
+.plusbtn {
+	position:relative;
+	top:2px;	
+}
+
+#middle div { background-color: transparent; color: #000 !important; }
+
+#box {
+	border:1px solid #7C9EA1;
+	padding:0px 10px 10px 10px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	background-color:#F0F8EF; 
+}
+.boxtitle {
+	color:#005596;
+	font-weight:bold;
+	line-height:22px;
+}
+.commenttitle {
+	color:#2E665c;
+	font-size:11px;
+	background-color:#ccc;
+	padding:0px 5px 0px 5px;
+	font-style:italic;
+	line-height:18px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.overfinger {
+    position:fixed;
+    bottom:0px;
+    z-index:20;
+}
+
+.over {
+    position:fixed;
+    z-index:20;
+}
+
+.under {
+    z-index:10;
+}
